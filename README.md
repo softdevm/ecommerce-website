@@ -19,36 +19,7 @@ My thought process
     * django admin page
 
 #### 2. Database structure
-  - __User__
-    * username: varchar
-    * email: varchar
-    * password: varchar
-    * name: varchar
-    * address: varchar
-    * phone: int
-  - __Product__
-    * name: varchar
-    * description: varchar
-    * price: double
-    * discount: int (percentage)
-    * images
-  - __Cart__
-    * user_id: int
-    * product_id: int
-  - __Order__
-    * user_id: int
-    * product_id: int
-  - __Review__
-    * user_id: int
-    * product_id: int
-    * stars: int
-  - __Comment__
-    * user_id: int
-    * product_id: int
-    * content: varchar
-  - __Wishlist__
-    * user_id: int
-    * product_id: int
+  - __See resources folder__
 
 #### ?. Tests
 

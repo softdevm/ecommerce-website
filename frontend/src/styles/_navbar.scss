@@ -1,0 +1,109 @@
+
+nav {
+    height: 65px;
+    background-color: rgb(70, 70, 70);    
+}
+
+img.Logo {
+    display: inline-block;
+    width: 180px;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 18px;
+
+    border: 2px solid transparent;
+    &:hover {
+        border-color: white;
+    }
+}
+
+.LogoDiv {
+    display: inline-block;
+}
+
+form {
+    position: absolute;
+    display: inline;
+    top: 20px;
+    margin-left: 10%;
+}
+
+input {
+    font-size: 120%;
+    width: 500px;
+}
+
+button {
+    position: absolute;
+    margin-left: 5%;
+    font-size: 120%;
+}
+
+a.SignIn {
+    text-decoration: none;
+    position: absolute;
+    font-size: 120%;
+    color: rgb(190, 255, 130);
+    margin-top: 10px;  
+    margin-bottom: 20px; 
+    right: 25%;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+    border: 2px solid transparent;
+    &:hover {
+        border-color: white;
+    }
+}
+
+a.Wishlist {
+    text-decoration: none;
+    position: absolute;
+    font-size: 120%;
+    color: rgb(190, 255, 130);
+    margin-top: 10px;  
+    margin-bottom: 20px; 
+    right: 15%;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+    border: 2px solid transparent;
+    &:hover {
+        border-color: white;
+    }
+}
+
+a.Cart {
+    text-decoration: none;
+    position: absolute;
+    font-size: 120%;
+    color: rgb(190, 255, 130);
+    margin-top: 10px;  
+    margin-bottom: 20px; 
+    right: 5%;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+    border: 2px solid transparent;
+    &:hover {
+        border-color: white;
+    }
+}
+
+.Whatever {
+    background-color: green;
+}

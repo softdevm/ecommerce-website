@@ -23,6 +23,7 @@ class Product(models.Model):
                                     MinValueValidator(0),
                                     MaxValueValidator(100)])
 
+    category = models.ForeignKey('Category', on_delete = models.CASCADE)
     reviews = models.ManyToManyField(User, through = 'Review', related_name = 'reviews')
     comments = models.ManyToManyField(User, through = 'Comment', related_name = 'comments')
 
@@ -53,3 +54,6 @@ class Comment(models.Model):
     dateTime = models.DateTimeField()
     user = models.ForeignKey(User, on_delete = models.CASCADE)
     product = models.ForeignKey(Product, on_delete = models.CASCADE)
+
+class Category(models.Model):
+    name = models.CharField(max_length = 50)

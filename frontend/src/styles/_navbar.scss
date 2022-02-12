@@ -45,6 +45,8 @@ button {
 }
 
 a.SignIn {
+    width: 5%;
+    text-align: center;
     text-decoration: none;
     position: absolute;
     font-size: 120%;
@@ -65,6 +67,8 @@ a.SignIn {
 }
 
 a.Wishlist {
+    width: 5%;
+    text-align: center;
     text-decoration: none;
     position: absolute;
     font-size: 120%;
@@ -85,6 +89,8 @@ a.Wishlist {
 }
 
 a.Cart {
+    width: 5%;
+    text-align: center;
     text-decoration: none;
     position: absolute;
     font-size: 120%;
@@ -104,6 +110,7 @@ a.Cart {
     }
 }
 
-.Whatever {
-    background-color: green;
+.Background {
+    background-color: rgb(225, 225, 225);
 }
+

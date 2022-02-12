@@ -27,7 +27,7 @@ class NavigationBar extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="Background">
                 <nav>
                     <div className="LogoDiv">
                         <a href="/"><img className="Logo" src="logo.png" alt="Logo"></img></a>
